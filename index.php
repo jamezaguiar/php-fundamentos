@@ -6,6 +6,6 @@ phpinfo();
 
 # Comentário
 
-/*
+/**
  * Comentário de bloco
-*/
+ */
