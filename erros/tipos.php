@@ -1,7 +1,6 @@
 <?php
 
-ini_set("display_errors", "1"); // Define MOSTRAR ERROS como TRUE
-error_reporting(E_ALL); // Todos os erros do código serão reportados no navegador.
+ini_set("display_errors", E_ALL); // Todos os erros do código serão reportados no navegador.
 
 // O código abaixo gera um erro NOTICE, erro que não interromperá a execução do programa.
 /* $valor1 = 10;
