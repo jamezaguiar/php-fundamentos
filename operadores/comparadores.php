@@ -17,4 +17,3 @@ var_dump($c == $d); // Compara apenas valor
 var_dump($c != $d); // Compara apenas valor
 var_dump($c === $d); // Compara valor e tipo
 var_dump($c !== $d); // Compara valor e tipo
-

@@ -22,13 +22,13 @@ $cursos = [
 ];
 
 foreach ($cursos as $chave => $valor) {
-  if ($valor["status"] == false) {
-    //continue;
-    break;
-  }
-  echo "<br>Chave: {$chave} - Valor: {$valor}";
+    if ($valor["status"] == false) {
+        //continue;
+        break;
+    }
+    echo "<br>Chave: {$chave} - Valor: {$valor}";
 
-  foreach ($valor as $key => $value) {
-    echo "<br>Key: {$key} - Value: {$value}";
-  }
+    foreach ($valor as $key => $value) {
+        echo "<br>Key: {$key} - Value: {$value}";
+    }
 }

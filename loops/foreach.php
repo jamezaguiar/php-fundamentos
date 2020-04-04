@@ -3,7 +3,7 @@
 $numeros = [2, 3, 5, 7, 9, 10];
 
 foreach ($numeros as $chave => $valor) {
-  echo "<br>Chave: {$chave} - Valor: {$valor}";
+    echo "<br>Chave: {$chave} - Valor: {$valor}";
 }
 
 /**
